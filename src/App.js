@@ -1,8 +1,15 @@
 function App() {
   return (
-    <div className="App">
-    <br/><br/><br/><br/><br/>
-          GuMo
+    <div className="main-container">
+      <div className="sidebar-left">
+
+      </div>
+      <div className="middle-container">
+
+      </div>
+      <div className="sidebar-right">
+
+      </div>
     </div>
   );
 }
