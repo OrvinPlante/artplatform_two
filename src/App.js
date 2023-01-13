@@ -6,12 +6,20 @@ function App() {
   return (
     <>
     <div className="main-container">
-      <span>TEXT</span>
       <div className="sidebar-left">
         
       </div>
       <div className="middle-container">
-
+        <span><h2>TEXT</h2></span>
+        <div class="row">
+        <div class="col">col</div>
+        <div class="col">col</div>
+        <div class="col">col</div>
+        <div class="w-100"></div>
+        <div class="col">col</div>
+        <div class="col">col</div>
+        <div class="col">col</div>
+        </div>
       </div>
       <div className="sidebar-right">
 
