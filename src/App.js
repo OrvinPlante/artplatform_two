@@ -6,10 +6,10 @@ function App() {
   return (
     <>
     <div className="main-container">
-      <div className="sidebar-left">
+      <div className="col sidebar-left">
         
       </div>
-      <div className="middle-container">
+      <div className="col middle-container">
         <span><h2>TEXT</h2></span>
         <div class="row">
         <div class="col">col</div>
@@ -21,7 +21,7 @@ function App() {
         <div class="col">col</div>
         </div>
       </div>
-      <div className="sidebar-right">
+      <div className="col sidebar-right">
 
       </div>
     </div>
