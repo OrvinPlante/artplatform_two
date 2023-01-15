@@ -1,0 +1,3 @@
+for ((i = 0; i < 26; i++)) do
+ls -1t | tail -n 1 | xargs -i mv ./{} ./$i.png
+done

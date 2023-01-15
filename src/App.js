@@ -1,6 +1,7 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Button from "react-bootstrap/Button";
+import "/fotos/Fotostrecke/";
 
 function App() {
   return (
@@ -41,6 +42,19 @@ function App() {
         </div>
       </div>
     </div>
+    </>
+  );
+}
+
+function Gallery(galleryState) {
+  let galleryItem = 
+    <div className="col galleryItem">
+      <img className="galleryItemImage" src="image.jpg" alt=""></img>
+    </div>
+  ;
+  return (
+    <>
+    
     </>
   );
 }
