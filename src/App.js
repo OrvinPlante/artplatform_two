@@ -1,7 +1,7 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Button from "react-bootstrap/Button";
-import "/fotos/Fotostrecke/";
+import DatabaseJS from './Database';
 
 function App() {
   return (
@@ -46,7 +46,22 @@ function App() {
   );
 }
 
+function getAllImages() {
+  console.log("function getAllImages");
+  const pathToImg = "/fotos/Fotostrecke/";
+  let fotosArray = [];
+  let i, currentImport;
+  for (i = 0; i < 25; i += 1) {
+    currentImport = import(pathToImg + i + ".png");
+    fotosArray.push(currentImport);
+  }
+
+  console.log("reached end of getAllImages");
+}
+
 function Gallery(galleryState) {
+
+
   let galleryItem = 
     <div className="col galleryItem">
       <img className="galleryItemImage" src="image.jpg" alt=""></img>
@@ -54,7 +69,7 @@ function Gallery(galleryState) {
   ;
   return (
     <>
-    
+
     </>
   );
 }
