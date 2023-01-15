@@ -13,7 +13,7 @@ function App() {
         <div className="col-8 middle-container">
           <h2>Gebrauchtkunsthandel JASAX</h2>
           <div className="angebote-container">
-            <div className="row align-items-center">
+            <div className="row">
               <div className="col">col</div>
               <div className="col">col</div>
               <div className="col">col</div>
