@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Button from "react-bootstrap/Button";
 import DatabaseJS from './Database';
 import Angebote from './Angebote';
+import Header from './Header';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
         <h2>Sidebar</h2>
       </div>
         <div className="middle-container">
-          <h2>Gebrauchtkunsthandel JASAX</h2>
+          <Header />
           <Angebote />
       </div>
     </div>
@@ -34,7 +35,6 @@ function getAllImages() {
 }
 
 function Gallery(galleryState) {
-
 
   let galleryItem = 
     <div className="col galleryItem">
