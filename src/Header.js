@@ -3,9 +3,11 @@ import React from 'react'
 export default function Header() {
   return (
     <>
-    <h2>Gebrauchtkunsthandel JASAX</h2>
-    
-    
+    <div className="header-container justify-content-center">
+        <div className="header-content">
+            <div className="heading-text">Gebrauchtkunsthandel JASAX</div>
+        </div>
+    </div>
     </>
   )
 }

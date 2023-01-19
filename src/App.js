@@ -4,13 +4,14 @@ import Button from "react-bootstrap/Button";
 import DatabaseJS from './Database';
 import Angebote from './Angebote';
 import Header from './Header';
+import Sidebar from './Sidebar';
 
 function App() {
   return (
     <>
     <div className="main-container">
       <div className="sidebar-left">
-        <h2>Sidebar</h2>
+        <Sidebar />
       </div>
         <div className="middle-container">
           <Header />
