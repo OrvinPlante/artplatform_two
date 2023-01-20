@@ -23,7 +23,6 @@ export default function Angebote() {
         <div className="col">col</div>
         <div className="col">col</div>
         <div className="col">col</div>
-
     </div>
     </>
   )

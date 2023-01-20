@@ -72,13 +72,13 @@ code {
 
 .angebote-grid {
   background-color: darkcyan;
-  display: grid;
-  gap: 2rem;
   margin-top: 1rem;
   margin-right: 2rem;
   margin-left: 0;
   padding: 1.5rem;
 
+  display: grid;
+  gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   grid-auto-rows: 18rem;
 }
